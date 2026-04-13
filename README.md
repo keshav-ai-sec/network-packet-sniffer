@@ -68,22 +68,5 @@ python sniffer.py --count 100
 # You can even mix them!
 python sniffer.py --protocol udp --port 53
 ```
-
----
-
-## 📝 How to Write This Project in a Resume Professionally
-
-This project is fantastic for breaking into roles connected to networking, SOC (Security Operations Center) roles, and Junior Penetration Testing jobs. It demonstrates a working knowledge of the OSI Model, Python, and terminal-based tooling.
-
-**Here is an example formatting block you can modify for your resume:**
-
-> ### Network Packet Analyzer | *Python, Scapy, TCP/IP*
-> * Developed a dynamic network packet capturing mechanism using Python and the Scapy library to actively sniff, decode, and monitor local machine traffic in real-time.
-> * Implemented parsing algorithms to cleanly isolate Source/Destination IP topologies, Transport Layer protocols (TCP/UDP/ICMP), and communication Ports.
-> * Designed a suspicious activity heuristic module capable of detecting anomalous behavioral patterns, including active IP port scanning and rapid ping flooding.
-> * Built CLI-level controls for dynamic traffic filtering, backed by fully synchronous background logging output streams for long-term telemetry storage.
-
-### Interview Preparation Pro-Tips:
-* Make sure you understand the difference between **TCP (connection-oriented)** and **UDP (connectionless)**.
-* Understand the fundamentals of why the sniffer needs "Promiscuous Mode" / elevated Admin privileges.
-* Be able to confidently explain what `Scapy` is and why you chose it over simply reading Python raw sockets.
+## 📊 Sample Output
+![Packet Sniffer Output](screenshot.png)
