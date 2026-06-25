@@ -1,5 +1,13 @@
 __pycache__/
 *.pyc
-packets.log
+*.pyo
+*.pyd
+.Python
+env/
 venv/
-.env
+.venv/
+env.bak/
+venv.bak/
+*.log
+.vscode/
+.idea/
